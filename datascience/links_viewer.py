@@ -36,5 +36,5 @@ class WebInfo:
         return validators.url(self.url)
 
 
-muj_web_site = WebInfo("https://misionerosurbanosdejesucristo.org/")
+muj_web_site = WebInfo(input("add website: "))
 muj_web_site.get_links()
